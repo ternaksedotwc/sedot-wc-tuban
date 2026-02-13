@@ -1,4 +1,4 @@
-site:
+﻿site:
   name: 'Sedot WC Tuban Terpercaya - Tukang Ahli Saluran Mampet'
   site: 'https://example.com' # Nanti Cloudflare akan otomatis menyesuaikan
   base: '/'
@@ -10,10 +10,10 @@ site:
 metadata:
   title:
     default: 'Sedot WC Tuban Terpercaya - Tukang Ahli Saluran Mampet'
-    template: '%s — Sedot WC TUBAN'
+    template: '%s â€” Sedot WC TUBAN'
   description: "Tukang Sedot WC TUBAN profesional. Melayani sedot septic tank penuh, pelancaran saluran mampet, dan limbah industri. Respon cepat & harga transparan!"
   robots:
-    index: true
+    index: false
     follow: true
   openGraph:
     site_name: 'Sedot WC Tuban Terpercaya - Tukang Ahli Saluran Mampet'
@@ -40,19 +40,19 @@ apps:
       isEnabled: true
       permalink: '/%slug%' 
       robots:
-        index: true
+        index: false
 
     list:
       isEnabled: true
       pathname: 'blog' 
       robots:
-        index: true
+        index: false
 
     category:
       isEnabled: true
       pathname: 'blog' 
       robots:
-        index: true
+        index: false
 
     tag:
       isEnabled: true
@@ -70,4 +70,7 @@ analytics:
 
 ui:
   theme: 'light' # Untuk jasa sedot WC, tema "Light" biasanya terlihat lebih bersih dan terpercaya
+
+
+
 
