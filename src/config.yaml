@@ -38,7 +38,7 @@ apps:
 
     post:
       isEnabled: true
-      permalink: '/%slug%' 
+      permalink: '/blog/%slug%' 
       robots:
         index: false
 
@@ -70,6 +70,7 @@ analytics:
 
 ui:
   theme: 'light' # Untuk jasa sedot WC, tema "Light" biasanya terlihat lebih bersih dan terpercaya
+
 
 
 
