@@ -44,19 +44,19 @@ apps:
 
     list:
       isEnabled: true
-      pathname: 'Sedot WC Tuban' 
+      pathname: 'blog' 
       robots:
         index: false
 
     category:
       isEnabled: true
-      pathname: 'Sedot WC Tuban' 
+      pathname: 'blog' 
       robots:
         index: false
 
     tag:
       isEnabled: true
-      pathname: 'Sedot WC Tuban' 
+      pathname: 'blog' 
       robots:
         index: false
 
@@ -70,6 +70,7 @@ analytics:
 
 ui:
   theme: 'light' # Untuk jasa sedot WC, tema "Light" biasanya terlihat lebih bersih dan terpercaya
+
 
 
 
