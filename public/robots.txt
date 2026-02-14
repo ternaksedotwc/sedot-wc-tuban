@@ -1,4 +1,25 @@
-﻿User-agent: *
+﻿# MODE PENGEMBANGAN - BLOKIR MESIN PENCARI SEMENTARA
+User-agent: Googlebot
 Disallow: /
 
-Sitemap: https://sedot-wc-tuban.pages.dev/sitemap-index.xml
+User-agent: Bingbot
+Disallow: /
+
+# BLOKIR PERMANEN BOT KOMPETITOR (YANG PATUH)
+User-agent: AhrefsBot
+Disallow: /
+User-agent: SemrushBot
+Disallow: /
+User-agent: MJ12bot
+Disallow: /
+User-agent: DotBot
+Disallow: /
+User-agent: Rogerbot
+Disallow: /
+User-agent: Exabot
+Disallow: /
+
+# IZINKAN PERAYAPAN INTERNAL & STANDAR KEAMANAN
+User-agent: *
+Disallow: /api/
+Disallow: /admin/
