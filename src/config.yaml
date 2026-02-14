@@ -4,14 +4,14 @@
   base: '/'
   trailingSlash: false
 
-  googleSiteVerificationId: false 
+  googleSiteVerificationId: false
 
 # Default SEO metadata
 metadata:
   title:
     default: 'Sedot WC Tuban'
     template: '%s â€” Sedot WC TUBAN'
-  description: "Tukang Sedot WC TUBAN profesional. Melayani sedot septic tank penuh, pelancaran saluran mampet, dan limbah industri. Respon cepat & harga transparan!"
+  description: 'Tukang Sedot WC TUBAN profesional. Melayani sedot septic tank penuh, pelancaran saluran mampet, dan limbah industri. Respon cepat & harga transparan!'
   robots:
     index: false
     follow: true
@@ -38,25 +38,25 @@ apps:
 
     post:
       isEnabled: true
-      permalink: '/blog/%slug%' 
+      permalink: '/blog/%slug%'
       robots:
         index: false
 
     list:
       isEnabled: true
-      pathname: 'blog' 
+      pathname: 'blog'
       robots:
         index: false
 
     category:
       isEnabled: true
-      pathname: 'blog' 
+      pathname: 'blog'
       robots:
         index: false
 
     tag:
       isEnabled: true
-      pathname: 'blog' 
+      pathname: 'blog'
       robots:
         index: false
 
@@ -66,15 +66,8 @@ apps:
 analytics:
   vendors:
     googleAnalytics:
-      id: null 
+      id: null
 
 ui:
   theme: 'light' # Untuk jasa sedot WC, tema "Light" biasanya terlihat lebih bersih dan terpercaya
-
-
-
-
-
-
-
 
