@@ -1,2 +1,4 @@
 ﻿User-agent: *
 Disallow: /
+
+Sitemap: https://sedot-wc-tuban.pages.dev/sitemap-index.xml
